@@ -1,0 +1,10 @@
+applications:
+- services:
+  - SQL Database
+  disk_quota: 1024M
+  host: materialmaster
+  name: MaterialMaster
+  path: webStarterApp.war
+  domain: eu-gb.mybluemix.net
+  instances: 1
+  memory: 512M
